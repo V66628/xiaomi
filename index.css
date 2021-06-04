@@ -1,0 +1,273 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+body{
+    width:1535.200px ;
+}
+#site-topbar{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+#site-topFont-border{
+    margin: 0px 120px;
+}
+.topbar-font li{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+.topbar-font a{
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    margin-left: -10px;
+}
+.topbar-font a:hover{
+    color: white;
+}
+.right li{
+    float: right;
+    margin-left: 20px;
+}
+.topbar-font span{
+    color:#424242;
+    font-size: 5px;
+    margin-left: 5px;
+}
+.right .shopping-cat{
+    margin-left: 15px;
+    padding: 0px 20px;
+    background-color: #424242;
+    height: 38px;
+}
+div ul.right{
+    width:350px;
+    height: 40px;
+    float: right;
+    padding-right: 22px;
+}
+#qrd{
+    position: relative;
+}
+#qrd::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: transparent 8px solid;
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+    border-top: none;
+    border-bottom-color:white ;
+    display: none;
+}
+#qrd:hover::after{
+display: block;
+}
+#download{
+    z-index: 9999;
+    display: none;
+    float: left;
+    width: 128px;
+    height: 148px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -39px;
+    top: 38px;
+    box-shadow: 0.1px 0.1px 5px rgb(54, 54, 54);
+}
+#download img{
+    width: 90px;
+    height: 90px;
+    margin: 15px 19px;
+}
+#download span{
+    width: 140px;
+    height: 20px;
+    display: inline-block;
+    margin: 0px 26px;
+    position: absolute;
+    top: 105px;
+    left: -3px;
+    font-size: 14px;
+}
+span.iconfont{
+    color: #b8b8b8;
+    font-size: 16px;
+    margin-left: -5px;
+}
+#shop-cat-li{
+    position: relative;
+}
+#shopping-cat-block{
+    z-index: 999;
+    width:320px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40px;
+    left: -195px;
+    box-shadow: 0px 1px 1px  black;
+    display: none;
+}
+#shopping-cat-block span{
+   line-height: 90px;
+   text-align: center;
+   display: block;
+   font-size: 14px;
+}
+.container{
+    width: 1226px;
+    height: 99px;
+    margin: 0px auto;
+    position: relative;
+    border-top: 1px white solid;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 23px;
+    left: 0px;
+}
+ul.nav-list{
+    width: 620px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 215px;
+}
+.nav-list li{
+list-style: none;
+float: left;
+margin-left: 20px;
+}
+.nav-list li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 60px;
+    padding: 0px 0px 18px 0px;
+} 
+.nav-list li a:hover{
+    color: #ff6700;
+}
+.search{
+    width:310px;
+    height: 60px;
+    float: right;
+    position: absolute;
+    top: 22px;
+    left: 916px;
+}
+.search input{
+    float: right;
+}
+.search .search-two{
+    width:233px;
+    height: 48px;
+    padding: 0px 10px;
+    border: rgb(177, 177, 177) 1px solid;
+}
+.search .search-one{
+    width: 50px;
+    height:50px;
+    padding: 1px 6px;
+    border: 1px solid rgb(177, 177, 177);
+    background-color: white;
+}
+.iphone-contain,.second-contain,.third-contain,.fourth-contain,.fifth-contain,.sixth-contain,.seventh-contain{
+    width:1535.200px;
+    height: 220px;
+    box-shadow:0px 0px 1px black;
+    position: fixed;
+    top: 140px;
+    left: 0px;
+    display: none;
+    background-color: white;
+    z-index: 999;
+}
+.iphone{
+    width:1200px;
+    height:220px;
+    margin: 0px auto;
+}
+.iphone a{
+    display: block;
+    float: left;
+    margin: 35px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+    text-align: center;
+}
+.iphone a img{
+    width: 150px;
+}
+.iphone a div{
+    margin-top: 15px;
+}
+.iphone a div.price{
+        color: #ff6700;
+        margin-top: 5px;
+}
+.line{
+    width: 1px;
+    height: 90px;
+    background-color: rgb(194, 194, 194);
+    float: left;
+    margin-top: 40px;
+}
+.iphone a div.watch{
+    margin-top: 6px;
+    color: black;
+    font-size: 10px;
+}
+.swiper-wrapper{
+    width: 1226px;
+    height: 460px;
+    margin: 0px auto;
+    background-color: bisque;
+}
+.left-wrapper{
+    width: 234px;
+    height: 400px;
+    padding: 30px 0px;
+    background-color: rgba(105,101,101,.6);
+}
+.left-wrapper li{
+    list-style: none;
+    width: 234px;
+    height: 40px;
+
+}
+.left-wrapper li>a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.left-wrapper li>a:hover{
+    background-color: #ff6700;
+}
+.left-wrapper span.iconfont{
+    margin-left: 90px;
+    color: white;
+}
+.left-wrapper .children{
+    width: 992px;
+    height: 458px;
+    background-color: beige;
+    position: fixed;
+    top: 140px;
+    left: 389px;
+}
